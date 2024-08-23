@@ -21,8 +21,8 @@ function App() {
 
     const formattedMessage = formatMessage(msgPara1, msgPara2);
     setMessage(formattedMessage);
-    // setMsgPara1("");
-    // setMsgPara2("");
+    setMsgPara1("");
+    setMsgPara2("");
   };
 
   const formatMessage = (para1, para2) => {
